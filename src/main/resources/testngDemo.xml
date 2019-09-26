@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+
+<suite name="接口测试套件">
+
+    <test name="这是测试模块">
+       <classes>
+           <class name="com.tester.extend.demo.TestMethodsDemo"/>
+           <methods>
+               <include name="test1"/>
+               <include name="test2"/>
+               <include name="logDemo"/>
+               <include name="test3"/>
+           </methods>
+       </classes>
+    </test>
+
+    <listeners>
+        <listener class-name="com.vimalselvam.testng.listener.ExtenTestNgFormatter"/>
+    </listeners>
+
+</suite>

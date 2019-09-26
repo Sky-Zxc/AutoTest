@@ -1,0 +1,24 @@
+[
+  {
+    "description":"查询机器人支持的案件类型",
+    "request":{
+      "uri":"/api/case/getAICaseType",
+      "method":"get",
+      "queries":{
+        "caseNo":"No001"
+      },
+      "response":{
+        "code":200
+        "json":{
+          "data":{
+            "scenes":"[1,2,3]"
+          },
+          "requestId":"ver",
+          "resultMsg": "获取成功",
+          "errorStackTrace": null
+        }
+      }
+    }
+
+  }
+]
